@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Vector store (generated locally, don't commit binary DB files)
+chroma_store/
