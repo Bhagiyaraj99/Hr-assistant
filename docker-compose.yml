@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   docqa:
     build: .
@@ -13,3 +11,4 @@ services:
       - ./chroma_store:/app/chroma_store
       # Mount data so uploaded PDFs persist too
       - ./data:/app/data
+
