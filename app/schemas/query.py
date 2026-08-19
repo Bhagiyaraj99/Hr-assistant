@@ -37,4 +37,3 @@ class UploadResponse(BaseModel):
     status: str
     filename: str
     chunks_stored: int
-
